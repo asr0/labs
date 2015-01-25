@@ -12,3 +12,41 @@
 }
 
 
+//Usando mixin com if e else
+@mixin cores ($width,$height,$dir){
+	@if $dir == preto {
+		width: $width;
+		height:$height;
+		background: black;
+
+	} @else if $dir == branco  {
+		width: $width;
+		height:$height;
+		background: white;
+
+	} @else if $dir == verde {
+		width: $width;
+		height:$height;
+		background: green;
+
+	} @else if $dir == laranja {
+		width: $width;
+		height:$height;
+		background: orange;
+	}
+}
+// Como usar:
+.exemplo {
+
+	// Preto
+	@include cores(200px,200px,laranja)
+
+	// Branco
+	@include cores(200px,200px,branco)
+
+	// Verde
+	@include cores(200px,200px,verde)
+
+	// Laranja
+	@include cores(200px,200px,laranja)
+}
