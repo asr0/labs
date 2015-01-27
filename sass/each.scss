@@ -1,0 +1,29 @@
+// Definindo varivael
+$times:{flamengo,palmeiras,bahia};
+@each $futebol in $times{
+	.#{$futebol} {
+		background: url('caminho/#{$futebol}-time-serie-a.png');
+	}
+}
+
+
+// Resultado
+.flamengo{background: url('caminho/flamengo-time-serie-a.png');}
+.palmeiras{background: url('caminho/paleiras-time-serie-a.png');}
+.bahia{background: url('caminho/bahia-time-serie-a.png');}
+
+
+
+
+// Outro exemplo de definir variavel
+
+@each $futebol in flamengo,palmeiras,bahia {
+	.${$futebol} {
+		background: url('caminh/#{$futebol}-time-serie-a.png');
+	}
+}
+
+// Resultado
+.flamengo{background: url('caminho/flamengo-time-serie-a.png');}
+.palmeiras{background: url('caminho/paleiras-time-serie-a.png');}
+.bahia{background: url('caminho/bahia-time-serie-a.p');}
