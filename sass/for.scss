@@ -1,0 +1,24 @@
+// For SASS
+@for $i from 1 through 5 {
+	.part-#{#}{margin-top:30px;}
+}
+
+// Compilado
+.top-1 {margin-left: 30px;}
+.top-2 {margin-left: 60px;}
+.top-3 { margin-left: 90px;}
+.top-4 { margin-left: 120px;}
+.top-5 { margin-left: 150px;}
+
+// HTML
+<div class="top-1">Primeiro</div>
+<div class="top-2">Segundo</div>
+<div class="top-3">Terceiro</div>
+<div class="top-4">Quarto</div>
+<div class="top-5">Quinto</div>
+
+// Estilizando a  div para puder visualizar melhor
+div {
+	background: #06c;
+	padding: 4px;
+}
