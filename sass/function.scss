@@ -1,0 +1,37 @@
+// Convertendo pixel em porcentagem 
+
+	// Variavel tamanho asides
+$aside-width: round(percentage(200px / 960px));
+.aside{
+	width: $aside-width;
+	height: 500px;
+	float: left;
+	background: rgb(#06c,0.7);
+}
+.content{
+	width: $aside-width;
+	height: 500px;
+	float: left;
+	background: rgb(green,0.7);
+}
+.aside2{
+	width: $aside-width;
+	height: 500px;
+	float: left;
+	background: rgba(red,0.7);
+}
+
+// Criando sua própria função.
+@function fundoTexto($background,$val){
+  @return ($background + $val);
+}
+.exemplo{ 
+	background: fundoTexto(green - 20 , 100);
+}
+// Outro exemplo
+@function bordasArredondadas($width) {
+  @return ($width * 5);
+}
+.exemplo{
+  border-radius: bordasArredondadas(10px); // Border radius 50px
+}
