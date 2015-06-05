@@ -1,2 +1,2 @@
-![Labs - Compartilhando minhas experiências](image/capa-labs.png)
+![Labs - Compartilhando minhas experiências](http://i.imgur.com/bZdxy9R.png)
 
