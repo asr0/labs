@@ -1,0 +1,30 @@
+*{margin:0; padding:0;  }
+body{background: #333;}
+.card {
+	width: 480px;
+	height: 370px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	margin: 70px;
+}
+.card * { transition: 0.6s; }
+.card img {
+	width: 480px;
+	height: 372px;
+}
+.card:hover img{ transform : translateY(-50px); }
+figcaption {
+	background: #F5F5F5;
+	font-family: Helvetica;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	min-height: 50px;
+	padding: 6px;
+	transform: translateY(100%);
+}
+.card:hover figcaption{
+	transform : translateY(0);
+}
