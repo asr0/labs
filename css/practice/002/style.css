@@ -1,0 +1,39 @@
+*{margin:0; padding:0;font-family: helvetica;}
+body{background: #333;}
+ul{list-style:none;}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	height: 50px;
+}
+.nav-header{
+	width: 960px;
+	position: relative;
+	margin: 40px auto;
+}
+.nav-header li{
+	width: 120px;
+	height: 50px;
+	position: absolute;
+}
+li > a:hover{
+	background-color rgba(0,0,0,0);
+}
+.bg{
+	width: 87%;
+	height: 3px;
+	margin-bottom: 5px;
+	transition: .5s;
+}
+nav-header>li:hover .bg{
+	height: 101%;
+}
+.review{background: yellow}
+.tech{background: orange}
+.news{background: black;}
+.nav-header{
+	background: rgba(0,0,0,0);
+	color: #fff;
+}
