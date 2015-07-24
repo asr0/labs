@@ -1,6 +1,6 @@
 ``` js
 /*
-	O metodo length retorna a quantidade de itens do array.
+	O método length retorna a quantidade de itens do array.
 */
 var arr = [ 
 	'JoãoSilva',
