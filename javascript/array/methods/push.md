@@ -2,7 +2,7 @@
 /*
 	Adiciona item no final do array. Ao adicionar ele retorna o length[Quantidade de itens].
 
-	PS: Esse metodo adiciona no array principal. Não cria um novo array para adicionar
+	PS: Esse método adiciona no array principal. Não cria um novo array para adicionar
 */
 var arr = [ 1, 2, 3, 4, 5];
 arr.push(6,'Sete', 8); // 8

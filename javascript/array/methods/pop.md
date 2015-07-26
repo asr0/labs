@@ -2,7 +2,7 @@
 /*
 	Remove o último item do array e retorna-o.
 
-	PS: Esse metodo age no array principal.
+	PS: Esse método age no array principal.
 */
 
 var arr = ['João', 'carlo', 'menezes'];

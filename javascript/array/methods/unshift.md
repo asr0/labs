@@ -1,9 +1,9 @@
 ``` js
 /*
-	Adiciona item no começo do array. Ao adicionar o metodo retorna o length
+	Adiciona item no começo do array. Ao adicionar o métedo retorna o length
 	[Quantidade de item do array].
 
-	PS: Esse metodo altera o array principal. Não cria um novo array para adicionar.
+	PS: Esse métedo altera o array principal. Não cria um novo array para adicionar.
 */
 
 var arr = [ 'oliveira', 'santos', 'ferreira'];
