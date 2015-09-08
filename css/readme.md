@@ -4,6 +4,9 @@ com intuito de aprender e exercitar o que está sendo passado. Também pratico o
 mas outros exemplos, [nesse repositório](#).
  > "A teoria sem a prática vira 'verbalismo', assim como a prática sem teoria, vira ativismo. No entanto, quando se une a prática com a teoria tem-se a práxis, a ação criadora e modificadora da realidade".
 
+
+##### Informações extraída [desse](http://tympanus.net/codrops/css_reference/) guia.
+
 ### Pseudo-class
  - [::after](#)
  - [::before](#)
