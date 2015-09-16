@@ -1,4 +1,4 @@
-## Minhas experiência com css
+## Minhas experiência com Javascript
 Nesse repositório reproduzo código de artigos, screencast, video aulas, onde estiver ensinando código,
 com intuito de aprender e exercitar o que está sendo passado. Também pratico outras com as mesmas propriedades
 mas outros exemplos, [nesse repositório](#).
