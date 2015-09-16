@@ -18,5 +18,5 @@ mas outros exemplos, [nesse repositório](#).
  - [toString](array/methods/toString.md)
  - [unshift](array/methods/unshift.md)
 
-### Propriedade
+### Propriedades
  - [length](#)
