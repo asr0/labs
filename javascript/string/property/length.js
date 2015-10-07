@@ -1,7 +1,6 @@
 /*
 	Retorna a quantidade de itens(letra ou números) que existe na string.
-	PS: Essa propriedade também é usado em Arrays.
-*/
+	PS: Essa propriedade também é usado em Arrays.*/
 var myName = 'Anderson Menezes';
 console.log( myName.length ); // 16
 
