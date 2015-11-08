@@ -1,0 +1,14 @@
+# Git
+
+<b>Configurações</b>:
+  + <b>git config --global user.name name</b>
+   - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá executar commits.
+  + <b>git config --global user.email email</b>
+   - configura-se seu email para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá executar commits.
+  + <b>git config -l</b> 
+   - Listagem de todo conteúdo do arquivo <code>~/.gitconfig</code>.
+  + <b>git config core.editor name-editor</b>
+   - configuração para escolher seu editor. por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim.
+   para testa-lo, tente executar esse comando <code> git commit </code> e veja qual editor será aberto.
+
+  
