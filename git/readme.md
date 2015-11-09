@@ -71,3 +71,16 @@
 + <b> git commit -a -m "mensagem"</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
+
+## <b>Destrouindo commits</b>
++	<b>git reset HEAD ~1 --soft</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++	<b>git reset HEAD ~1 --hard</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++	<b>git reset HEAD ~1 --soft</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
