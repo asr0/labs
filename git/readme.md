@@ -44,7 +44,7 @@
 
 ## <b>Adicionando arquivo no índice/árvore</b>
 + <b>git add name-do-arquivo</b>
-	Adiciona ao índice. O arquivo sai de <code>Changes not staged for commit</code> ou seja, as alterações não estão prontas pra commitar e passa pra <code>Changes to be submitted</code> ou seja, está preste a ser commitadas.
+	- Adiciona ao índice. O arquivo sai de <code>Changes not staged for commit</code> ou seja, as alterações não estão prontas pra commitar e passa pra <code>Changes to be submitted</code> ou seja, está preste a ser commitadas.
 
 + <b>git add .</b>
 	- Adiciona tudo que está no índice. Em execessão.
