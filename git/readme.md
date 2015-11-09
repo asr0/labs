@@ -54,4 +54,20 @@
 + <b>-i, -f, *.extensão</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
+	
+## <b>Criando commits</b>
++ <b>git commit</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
 
++ <b>git commit -m "mensagem"</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b>git commit -m "mensagem" --amend</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b> git commit -a -m "mensagem"</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
