@@ -19,3 +19,8 @@
 
   + <b>git init --bare</b>
     - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
+
+## <b>Verificando status</b>:
++ <b>git status</b>
+  - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
+
