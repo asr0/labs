@@ -24,3 +24,11 @@
 + <b>git status</b>
   - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
 
+## <b>Adicionando no índice</b>:	
++ <b>git add nome-do-arquivo</b>
+	- Emcaminha o arquivo para ser commitado.
++ <b>git add .</b>
+	- Adiciona todos os itens que estão no índice/árvore.
+
++ <b>git add -all</b>	- <b>git add -A</b>
+	- Adiciona tudo que está no índice, até arquivo deletado.
