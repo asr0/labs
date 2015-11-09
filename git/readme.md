@@ -32,3 +32,12 @@
 
 + <b>git add -all</b>	- <b>git add -A</b>
 	- Adiciona tudo que está no índice, até arquivo deletado.
+  
+## <b>Removendo arquivos do índice</b>
++ <b>git rm -rf nome-do-arquivo --cached</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b>git rm -rf nome-do-arquivo</b>	
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
