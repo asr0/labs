@@ -182,6 +182,14 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
++ <b>git checkout --orphan name-branch</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b>git branch -m rename</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
 ## <b>Sicronizando, atualizando e enviando</b>
 + <b>git remote add origin <url></b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -230,5 +238,19 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git config --global merge.tool meld</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
+## <b>Visualizando mudanças</b>
+
++ <b>git diff</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b>git diff -w</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
++ <b>git diff arquivo1 arquivo2</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
