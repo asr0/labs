@@ -254,3 +254,9 @@
 + <b>git diff arquivo1 arquivo2</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
+
+## <b>Removendo mudanças</b>
+
++ <b>git checkout nome-do-arquivo</b>
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
