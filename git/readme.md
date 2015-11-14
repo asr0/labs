@@ -1,262 +1,262 @@
 # Git
 
-## <b>Configurações</b>:
-+ <b>git config --global user.name name</b>
+## **Configurações**:
++ **git config --global user.name name**
  - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá executar commits.
 
-+ <b>git config --global user.email email</b>
++ **git config --global user.email email**
  - configura-se seu email para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá executar commits.
-+ <b>git config -l</b> 
++ **git config -l** 
  - Listagem de todo conteúdo do arquivo <code>~/.gitconfig</code>.
 
-+ <b>git config core.editor name-editor</b>
++ **git config core.editor name-editor**
 	- configuração para escolher seu editor. por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim.
 	para testa-lo, tente executar esse comando <code> git commit </code> e veja qual editor será aberto.
 
-## <b>Iniciando</b>
-  + <b>git init</b>
+## **Iniciando**
+  + **git init**
    - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá
 
-  + <b>git init --bare</b>
+  + **git init --bare**
     - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
 
-## <b>Verificando status</b>:
-+ <b>git status</b>
+## **Verificando status**:
++ **git status**
   - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
 
-## <b>Adicionando no índice</b>:	
-+ <b>git add nome-do-arquivo</b>
+## **Adicionando no índice**:	
++ **git add nome-do-arquivo**
 	- Emcaminha o arquivo para ser commitado.
-+ <b>git add .</b>
++ **git add .**
 	- Adiciona todos os itens que estão no índice/árvore.
 
-+ <b>git add -all</b>	- <b>git add -A</b>
++ **git add -all**	- **git add -A**
 	- Adiciona tudo que está no índice, até arquivo deletado.
   
-## <b>Removendo arquivos do índice</b>
-+ <b>git rm -rf nome-do-arquivo --cached</b>
+## **Removendo arquivos do índice**
++ **git rm -rf nome-do-arquivo --cached**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git rm -rf nome-do-arquivo</b>	
++ **git rm -rf nome-do-arquivo**	
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Adicionando arquivo no índice/árvore</b>
-+ <b>git add name-do-arquivo</b>
+## **Adicionando arquivo no índice/árvore**
++ **git add name-do-arquivo**
 	- Adiciona ao índice. O arquivo sai de <code>Changes not staged for commit</code> ou seja, as alterações não estão prontas pra commitar e passa pra <code>Changes to be submitted</code> ou seja, está preste a ser commitadas.
 
-+ <b>git add .</b>
++ **git add .**
 	- Adiciona tudo que está no índice. Em execessão.
 
-+ <b>-i, -f, *.extensão</b>
++ **-i, -f, *.extensão**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 	
-## <b>Criando commits</b>
-+ <b>git commit</b>
+## **Criando commits**
++ **git commit**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git commit -m "mensagem"</b>
++ **git commit -m "mensagem"**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git commit -m "mensagem" --amend</b>
++ **git commit -m "mensagem" --amend**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b> git commit -a -m "mensagem"</b>
++ ** git commit -a -m "mensagem"**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Destrouindo commits</b>
-+	<b>git reset HEAD ~1 --soft</b>
+## **Destrouindo commits**
++	**git reset HEAD ~1 --soft**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+	<b>git reset HEAD ~1 --hard</b>
++	**git reset HEAD ~1 --hard**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+	<b>git reset HEAD ~1 --soft</b>
++	**git reset HEAD ~1 --soft**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Visualizar commits</b>
-+ <b>git log</b>
+## **Visualizar commits**
++ **git log**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --stat</b>
++ **git log --stat**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --reflog</b>
++ **git log --reflog**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --graph</b>
++ **git log --graph**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --oneline</b>
++ **git log --oneline**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --pretty-online</b>
++ **git log --pretty-online**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --abbrev-commit</b>
++ **git log --abbrev-commit**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log -p</b>
++ **git log -p**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log -p -3</b>
++ **git log -p -3**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Guardar arquivos</b>
-+ <b>git stash</b>
+## **Guardar arquivos**
++ **git stash**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash list</b>
++ **git stash list**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash apply</b>
++ **git stash apply**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash pop</b>
++ **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash drop</b>
++ **git stash drop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash save</b>
++ **git stash save**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Trabalhando com branch</b>
-+ <b>git branch</b>
+## **Trabalhando com branch**
++ **git branch**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout</b>
++ **git checkout**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout -b</b>
++ **git checkout -b**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git merge</b>
++ **git merge**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 	
-+ <b>git rebase</b>
++ **git rebase**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git rebase --continue</b>
++ **git rebase --continue**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout hash</b>
++ **git checkout hash**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout branch-baseada -b branch-nova</b>
++ **git checkout branch-baseada -b branch-nova**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git branch -D</b>
++ **git branch -D**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout --orphan name-branch</b>
++ **git checkout --orphan name-branch**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git branch -m rename</b>
++ **git branch -m rename**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Sicronizando, atualizando e enviando</b>
-+ <b>git remote add origin <url></b>
+## **Sicronizando, atualizando e enviando**
++ **git remote add origin <url>**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git remote -v</b>
++ **git remote -v**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git push origin branch</b>
++ **git push origin branch**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git pull</b>
++ **git pull**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git merge branch</b>
++ **git merge branch**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Guardando arquivos, logo mais uso você!</b>
-+ <b>git stash</b>
+## **Guardando arquivos, logo mais uso você!**
++ **git stash**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash list</b>
++ **git stash list**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash apply</b>
++ **git stash apply**
 	- Sempre ao mais recente...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash drop stash@{0}</b>
++ **git stash drop stash@{0}**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git stash pop</b>
++ **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Conflitos</b>
-+ <b>git merge --abort</b>
+## **Conflitos**
++ **git merge --abort**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git config --global merge.tool meld</b>
++ **git config --global merge.tool meld**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Visualizando mudanças</b>
+## **Visualizando mudanças**
 
-+ <b>git diff</b>
++ **git diff**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git diff -w</b>
++ **git diff -w**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git diff arquivo1 arquivo2</b>
++ **git diff arquivo1 arquivo2**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Removendo mudanças</b>
+## **Removendo mudanças**
 
-+ <b>git checkout nome-do-arquivo</b>
++ **git checkout nome-do-arquivo**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
