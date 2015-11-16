@@ -120,8 +120,11 @@
 
 ## <b>Guardar arquivos</b>
 + <b>git stash</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Guardar tudo que estiver em `Changes to be submitted`. Com a posibilidade de recuperar recuperar os mesmo em quaisquer momento.
+
+	Simplificando, o stash é como se fosse uma gaveta, onde coloca objetos e guarda, quando precisemos retiramos.
+
+	Nesse caso, esses objetos seria nossos arquivos.
 
 + <b>git stash list</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
