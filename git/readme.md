@@ -201,8 +201,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git remote -v**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Lista de todos os caminhos. Caminho esse que, possibilita o envio e downloads de informações. 
 
 + **git push origin branch**
 	- Envia alterações para o caminho que será definido atráves do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
