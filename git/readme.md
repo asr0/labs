@@ -263,5 +263,4 @@
 ## **Removendo mudanças**
 
 + **git checkout nome-do-arquivo**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Desfaz mudanças que foram feitas. Vale salientar que, para esse comando ser valido, o arquivo deve está em `Changes not staged for commit`.
