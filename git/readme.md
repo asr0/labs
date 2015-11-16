@@ -15,7 +15,7 @@
 
 ## <b>Iniciando</b>
   + <b>git init</b>
-   - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá
+   - Instalação do git na pasta. Sem esse comando, não é possível que, o git monitore suas versões. Todas informações são armazenada em uma pasta oculta de nome `.git`.
 
   + <b>git init --bare</b>
     - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
