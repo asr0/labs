@@ -63,8 +63,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git commit -m "mensagem" --amend</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
 
 + <b> git commit -a -m "mensagem"</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
