@@ -18,7 +18,7 @@
    - Instalação do git na pasta. Sem esse comando, não é possível que, o git monitore suas versões. Todas informações são armazenada em uma pasta oculta de nome `.git`.
 
   + <b>git init --bare</b>
-    - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
+    - Diferente do `git init` que, cria uma pasta para armazenar essas informações, esse comando cria na raiz. Esse comando é bastante usado em servidores.
 
 ## <b>Verificando status</b>:
 + <b>git status</b>
