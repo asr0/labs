@@ -100,8 +100,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git log --oneline</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
 + <b>git log --pretty-online</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
