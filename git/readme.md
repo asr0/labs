@@ -205,8 +205,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git push origin branch**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Envia alterações para o caminho que será definido atráves do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
 
 + **git pull**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
