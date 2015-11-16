@@ -66,8 +66,9 @@
 	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
 
 + <b> git commit -a -m "mensagem"</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Um pré requisito para poder commitar é, todo índice esteja em `Changes to be submitted`. Mas com o esse comando, é possível adicionar diretamente ao índice e impacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
+
+	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferetente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
 
 ## <b>Destrouindo commits</b>
 +	<b>git reset HEAD ~1 --soft</b>
