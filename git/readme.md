@@ -13,12 +13,12 @@
 	- configuração para escolher seu editor. por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim.
 	para testa-lo, tente executar esse comando <code> git commit </code> e veja qual editor será aberto.
 
-## **Iniciando**
-  + **git init**
-   - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá
+## <b>Iniciando</b>
+  + <b>git init</b>
+   - Instalação do git na pasta. Sem esse comando, não é possível que, o git monitore suas versões. Todas informações são armazenada em uma pasta oculta de nome `.git`.
 
-  + **git init --bare**
-    - configura-se seu nome para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderás
+  + <b>git init --bare</b>
+    - Diferente do `git init` que, cria uma pasta para armazenar essas informações, esse comando cria na raiz. Esse comando é bastante usado em servidores.
 
 ## **Verificando status**:
 + **git status**
@@ -62,6 +62,7 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
+<<<<<<< HEAD
 + **git commit -m "mensagem" --amend**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
@@ -69,6 +70,14 @@
 + ** git commit -a -m "mensagem"**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
+=======
++ <b>git commit -m "mensagem" --amend</b>
+	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
+
++ <b> git commit -a -m "mensagem"</b>
+	- Um pré requisito para poder commitar é, todo índice esteja em `Changes to be submitted`. Mas com o esse comando, é possível adicionar diretamente ao índice e impacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
+
+	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferetente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
 
 ## **Destrouindo commits**
 +	**git reset HEAD ~1 --soft**
@@ -83,10 +92,9 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Visualizar commits**
-+ **git log**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+## <b>Visualizar commits</b>
++ <b>git log</b>
+	- Listagem de todos commits/pacotes em ordem de como foi commitado. Por exemplo, se commitar um commit nesse momento, ele será o primeiro na lista.
 
 + **git log --stat**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -100,9 +108,8 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ **git log --oneline**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ <b>git log --oneline</b>
+	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
 + **git log --pretty-online**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -120,18 +127,20 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Guardar arquivos**
-+ **git stash**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+## <b>Guardar arquivos</b>
++ <b>git stash</b>
+	- Guardar tudo que estiver em `Changes to be submitted`. Com a posibilidade de recuperar recuperar os mesmo em quaisquer momento.
+
+	Simplificando, o stash é como se fosse uma gaveta, onde coloca objetos e guarda, quando precisemos retiramos.
+
+	Nesse caso, esses objetos seria nossos arquivos.
 
 + **git stash list**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ **git stash apply**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ <b>git stash apply</b>
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -145,18 +154,16 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Trabalhando com branch**
-+ **git branch**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+## <b>Trabalhando com branch</b>
++ <b>git branch</b>
+	- Lista todas as branchs existente.
 
 + **git checkout**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ **git checkout -b**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ <b>git checkout -b</b>
+	- Cria uma nova branch e automaticamente muda para a mesma.
 
 + **git merge**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -178,13 +185,11 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ **git branch -D**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ <b>git branch -D</b>
+	- Deleta uma branch. Vale salientar que não deve está dentro dela.
 
-+ **git checkout --orphan name-branch**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ <b>git checkout --orphan name-branch</b>
+	- Cria uma branch sem se basear em nenhuma, ou seja, cria uma branch sem nenhum commit armazenado no seu log.
 
 + **git branch -m rename**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
