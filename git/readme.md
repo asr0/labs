@@ -180,8 +180,7 @@
 	- Deleta uma branch. Vale salientar que não deve está dentro dela.
 
 + <b>git checkout --orphan name-branch</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Cria uma branch sem se basear em nenhuma, ou seja, cria uma branch sem nenhum commit armazenado no seu log.
 
 + <b>git branch -m rename</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
