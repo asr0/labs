@@ -147,8 +147,7 @@
 
 ## <b>Trabalhando com branch</b>
 + <b>git branch</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Lista todas as branchs existente.
 
 + <b>git checkout</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
