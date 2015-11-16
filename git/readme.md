@@ -154,8 +154,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git checkout -b</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Cria uma nova branch e automaticamente muda para a mesma.
 
 + <b>git merge</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
