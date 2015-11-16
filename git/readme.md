@@ -249,8 +249,7 @@
 ## **Visualizando mudanças**
 
 + **git diff**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Mostra tudo que foi modificado. Vale salientar que, para o comando ser valido, o/os arquivo/arquivos devem está em `Changes not staged for commit`.
 
 + **git diff -w**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
