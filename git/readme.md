@@ -177,8 +177,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git branch -D</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Deleta uma branch. Vale salientar que não deve está dentro dela.
 
 + <b>git checkout --orphan name-branch</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
