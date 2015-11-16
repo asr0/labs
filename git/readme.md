@@ -131,8 +131,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + <b>git stash apply</b>
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + <b>git stash pop</b>
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
