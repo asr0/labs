@@ -196,27 +196,6 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Guardando arquivos, logo mais uso você!**
-+ **git stash**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash list**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash apply**
-	- Sempre ao mais recente...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash drop stash@{0}**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash pop**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
 ## **Conflitos**
 + **git merge --abort**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
