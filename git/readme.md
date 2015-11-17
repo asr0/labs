@@ -10,8 +10,7 @@
  - Lista de de configurações do diretório atual.
 
 + **git config core.editor name-editor**
-	- configuração para escolher seu editor. por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim.
-	para testa-lo, tente executar esse comando <code> git commit </code> e veja qual editor será aberto.
+	- configuração para escolher seu editor. Por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim quando o git precisar de um editor. Para testa-lo, tente executar esse comando `git commit` e veja qual editor será aberto.
 
 ## <b>Iniciando</b>
   + <b>git init</b>
