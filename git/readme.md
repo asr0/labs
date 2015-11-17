@@ -72,8 +72,7 @@
 	- Destroe o commit anterior e exibe todos os arquivos modificado no índice pronto para ser commita-los novamente. A quantidade de commits que é desejada passa depois do **til(~)**. Por exemplo, poderia ser `git reset HEAD~2 --soft`.
 
 +	**git reset HEAD ~1 --hard**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Apaga o commit literalmente e não volta pra nenhum índice.
 
 ## **Visualizar commits**
 + **git log**
