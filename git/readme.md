@@ -100,7 +100,7 @@
 + <b>git log --oneline</b>
 	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
-+ **git log --pretty-online**
++ **git log --pretty-oneline**
 	- Lista todos os commits, aparecendo apenas os nomes do mesmos e o seu ** hash **, só que ao contrário do `git log --online` o ** hash ** não se exibe minificado. Mostra-se, todos os números e letras que ele contém.
 
 + **git log --abbrev-commit**
