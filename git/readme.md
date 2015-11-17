@@ -150,8 +150,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git checkout hash**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Cria uma nova branch a partir da hash do commit passado. Um exemplo é você passa a hash do seu quinto commit. Essa branch, só terá commits anteriores do quinto.
 
 + **git checkout branch-baseada -b branch-nova**
 	- Pra criação de branch baseada em outra, nem sempre é necessário está na branch que queira. Pode criar com o comando acima de qualquer brach, sendo a **branch baseada** a branch que você quer ter um clone e a **branch nova** o nome da branch que deseja criar.
