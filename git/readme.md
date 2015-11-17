@@ -50,6 +50,9 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 ## **Criando commits**
+ 
+ >  Arquivos para entrar num commit tem que está no índice `Changes to be submitted`.
+
 + **git commit**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
