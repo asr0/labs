@@ -69,7 +69,7 @@
 
 ## **Destrouindo commits**
 +	**git reset HEAD ~1 --soft**
-	- Destroe o commit anterior e exibe todos os arquivos modificado no índice pronto para ser commita-los novamente. A quantidade de commits que é desejada passa depois do **til(~)**. Por exemplo, poderia ser `git reset HEAD~2 --soft`.
+	- Destroe o commit anterior e exibe todos os arquivos modificado no índice pronto para ser commita-los novamente. A quantidade de commits que é desejada passa depois do **til(~)**. Por exemplo, poderia ser `git reset HEAD~2 --soft`.s
 
 +	**git reset HEAD ~1 --hard**
 	- Apaga o commit literalmente e não volta pra nenhum índice.
@@ -185,6 +185,9 @@
 
 + **git diff**
 	- Mostra tudo que foi modificado. Vale salientar que, para o comando ser valido, o/os arquivo/arquivos devem está em `Changes not staged for commit`.
+
++ **git diff --staged**
+	- Mostra as modificações dos arquivos que estão em `Changes not staged for commit`.
 
 + **git diff -w**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
