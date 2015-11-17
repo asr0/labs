@@ -135,9 +135,8 @@
 + **git branch**
 	- Lista todas as branchs existente.
 
-+ **git checkout**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ **git checkout branch**
+	- Mudança de uma branch para a outra.
 
 + **git checkout -b**
 	- Cria uma nova branch e automaticamente muda para a mesma.
