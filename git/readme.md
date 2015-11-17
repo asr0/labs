@@ -118,6 +118,9 @@
 + **git stash list**
 	- Lista de todos os itens que foram guardado. Cada seção, tem uma numeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
++ **git stash save "correção bug IE"**
+	- Salva com um nome especifico, assim facilita muito quando for trazer de volta para o índice.
+
 + **git stash apply**
 	- Trás novamente os itens para o `Changes to be submitted` e deixa ainda salvo na lista. Se executar `git stash list`, ainda vai vê ele lá.
 
@@ -127,8 +130,6 @@
 + **git stash drop**
 	- Apaga o stash da lista e não volta pra nenhuma área do índice. Igual o `git stash pop` se rodar o comando sem especificar qual queira apagar, ele irá deletar sempre o índice 0.
 
-+ **git stash save "correção bug IE"**
-	- Salva com um nome especifico, assim facilita muito quando for trazer de volta para o índice.
 
 ## **Trabalhando com branch**
 + **git branch**
