@@ -193,8 +193,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git merge branch**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Trás o que não tem de outra branch para a atual. As vezes, pode gerar alguns conflitos, mas é bem fácil de resolver. Se acontecer conflitos, veja o tópico abaixo.
 
 ## **Conflitos**
 + **git merge --abort**
