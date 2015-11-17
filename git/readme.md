@@ -164,8 +164,7 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git checkout branch-baseada -b branch-nova**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Pra criação de branch baseada em outra, nem sempre é necessário está na branch que queira. Pode criar com o comando acima de qualquer brach, sendo a **branch baseada** a branch que você quer ter um clone e a **branch nova** o nome da branch que deseja criar.
 
 + **git branch -D**
 	- Deleta uma branch. Vale salientar que não deve está dentro dela.
