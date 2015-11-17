@@ -141,10 +141,6 @@
 + **git checkout -b**
 	- Cria uma nova branch e automaticamente muda para a mesma.
 
-+ **git merge**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-	
 + **git rebase**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
