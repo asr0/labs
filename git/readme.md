@@ -28,7 +28,7 @@
 
 ## **Adicionando no índice**:	
 + **git add nome-do-arquivo**
-	- Emcaminha o arquivo para ser commitado.
+	- Emcaminha o arquivo para ser commitado. Mudando de `untrack` para `Changes to be submitted`.
 + **git add .**
 	- Adiciona todos os itens que estão no índice/árvore.
 
