@@ -110,6 +110,9 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 ## <b>Guardar arquivos</b>
+
+>  Arquivos para entrar no stash tem que está no índice `Changes to be submitted`.
+
 + <b>git stash</b>
 	- Guardar tudo que estiver em `Changes to be submitted`. Com a possibilidade de recuperar recuperar os mesmo em quaisquer momento.
 
@@ -197,6 +200,9 @@
 	tempor incididunt ut labore et dolore magna aliqua.
 
 ## **Guardando arquivos, logo mais uso você!**
+
+
+
 + **git stash**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
