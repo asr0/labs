@@ -118,11 +118,11 @@
 	Nesse caso, esses objetos seria nossos arquivos.
 
 + **git stash list**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + <b>git stash apply</b>
-	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
 
 + **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
