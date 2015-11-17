@@ -28,13 +28,18 @@
 
 ## **Adicionando no índice**:	
 + **git add nome-do-arquivo**
-	- Emcaminha o arquivo para ser commitado. Mudando de `untrack` para `Changes to be submitted`.
+	- Emcaminha o arquivo para ser commitado. Mudando de `untrack` para `Changes to be submitted`
+
 + **git add .**
 	- Adiciona todos os itens que estão no índice/árvore.
 
 + **git add -all**	- **git add -A**
 	- Adiciona tudo que está no índice, até arquivo deletado.
   
++ **-i, -f, *.extensão**
+	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.
+
 ## **Removendo arquivos do índice**
 + **git rm -rf nome-do-arquivo --cached**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -44,17 +49,6 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Adicionando arquivo no índice/árvore**
-+ **git add name-do-arquivo**
-	- Adiciona ao índice. O arquivo sai de <code>Changes not staged for commit</code> ou seja, as alterações não estão prontas pra commitar e passa pra <code>Changes to be submitted</code> ou seja, está preste a ser commitadas.
-
-+ **git add .**
-	- Adiciona tudo que está no índice. Em execessão.
-
-+ **-i, -f, *.extensão**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-	
 ## **Criando commits**
 + **git commit**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
