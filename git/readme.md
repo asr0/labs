@@ -219,8 +219,7 @@
 
 ## **Conflitos**
 + **git merge --abort**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Aborta o processo de merge. Ou seja, cancela a atualização.
 
 + **git config --global merge.tool meld**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
