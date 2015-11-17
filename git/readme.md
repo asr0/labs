@@ -23,7 +23,7 @@
 + **git status**
   - Apresenta arquivos que estiver no índice. Esse comando é bem **importante**, pois, com ele, consegue vê quais arquivos estão preste a ser commitado `Changes to be submitted` e quais ainda vai entrar. Ùns dos comandos que irá usar a cada 50 segundos. 
 
-  > O comando prover um auxilio muito util para que não haja confusões quando for adicionar itens ou commitar.
+  > O comando prover um auxílio muito util para que não haja confusões quando for adicionar itens ou commitar.
 
 ## **Adicionando no índice**:	
 + **git add nome-do-arquivo**
