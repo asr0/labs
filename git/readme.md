@@ -196,3 +196,6 @@
 
 + **git checkout nome-do-arquivo**
 	- Desfaz mudanças que foram feitas. Vale salientar que, para esse comando ser valido, o arquivo deve está em `Changes not staged for commit`.
+
++ **git reset HEAD nome-do-arquivo**
+	- Retira o arquivo de  `Changes not staged for commit` e trás para `Untrack file`.
