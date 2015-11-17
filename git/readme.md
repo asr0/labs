@@ -189,10 +189,6 @@
 + **git diff --staged**
 	- Mostra as modificações dos arquivos que estão em `Changes not staged for commit`.
 
-+ **git diff -w**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
 + **git diff HEAD:arquivo1 arquivo2**
 	- Compara um arquivo com o outro e mostra suas diferenças.
 
