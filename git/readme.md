@@ -122,8 +122,7 @@
 	- Trás novamente os itens para o `Changes to be submitted` e deixa ainda salvo na lista. Se executar `git stash list`, ainda vai vê ele lá.
 
 + **git stash pop**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Trás novamente para o índice e não o deixa salvo na lista. Caso, queira pegar um stash especifico, basta adicionar seu índice `git stash pop stash@{0}`. Por padrão `git stash pop`, ele trás sempre o stash do índice 0.
 
 + **git stash drop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
