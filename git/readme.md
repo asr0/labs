@@ -179,8 +179,9 @@
 
 ## **Sicronizando, atualizando e enviando**
 + **git remote add origin <url>**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Adicionar uma direção para seus arquivos. Até mesmo, fazer uma conexão entre o local e o servidor. Um exemplo bem claro é o github, onde passamos por exemplo `git remote add origin git@github.com:andersonweb/labs.git` e estabelecerá uma conexão entre um servidor e um servidor local.
+	
+	> o caminho a ser passado (`<url>`) não são iguais para todos, no caso do github, você pode encontra-lo no lado esquerdo - **SSH clone URL**.
 
 + **git remote -v**
 	- Lista de todos os caminhos. Caminho esse que, possibilita o envio e downloads de informações. 
