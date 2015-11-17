@@ -27,7 +27,7 @@
 + **git config core.editor name-editor**
 	- configuração para escolher seu editor. Por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim quando o git precisar de um editor. Para testa-lo, tente executar esse comando `git commit` e veja qual editor será aberto.
 
-## **Iniciando**
+## **Iniciando:**
   + **git init**
    - Instalação do git na pasta. Sem esse comando, não é possível que, o git monitore suas versões. Todas informações são armazenada em uma pasta oculta de nome `.git`.
 
@@ -50,7 +50,7 @@
 + **git add -all**	- **git add -A**
 	- Adiciona tudo que está no índice, até arquivo deletado.
 
-## **Removendo arquivos do índice**
+## **Removendo arquivos do índice:**
 + **git rm -rf nome-do-arquivo --cached**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
@@ -59,7 +59,7 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## **Criando commits**
+## **Criando commits:**
  
  >  Arquivos para entrar num commit tem que está no índice `Changes to be submitted`.
 
@@ -78,14 +78,14 @@
 
 	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
 
-## **Destruindo commits**
+## **Destruindo commits:**
 +	**git reset HEAD ~1 --soft**
 	- Destroe o commit anterior e exibe todos os arquivos modificado no índice pronto para ser commita-los novamente. A quantidade de commits que é desejada passa depois do **til(~)**. Por exemplo, poderia ser `git reset HEAD~2 --soft`.s
 
 +	**git reset HEAD ~1 --hard**
 	- Apaga o commit literalmente e não volta pra nenhum índice.
 
-## **Visualizar commits**
+## **Visualizar commits:**
 + **git log**
 	- Listagem de todos commits/pacotes em ordem de como foi commitado. Por exemplo, se commitar um commit nesse momento, ele será o primeiro na lista.
 
@@ -110,7 +110,7 @@
 + **git log -p -3**
 	- Atribuindo um `-` mais uma numeração, `-5`, por exemplo, exibe os primeiros cinco commits e o que foi alterado em cada qual .
 
-## **Guardar arquivos**
+## **Guardar arquivos:**
 + **git stash**
 	- Guardar tudo que estiver em `Changes to be submitted`. Com a possibilidade de recuperar recuperar os mesmo em quaisquer momento.
 
@@ -134,7 +134,7 @@
 	- Apaga o stash da lista e não volta pra nenhuma área do índice. Igual o `git stash pop` se rodar o comando sem especificar qual queira apagar, ele irá deletar sempre o índice 0.
 
 
-## **Trabalhando com branch**
+## **Trabalhando com branch:**
 + **git branch**
 	- Lista todas as branchs existente.
 
@@ -167,7 +167,7 @@
 + **git branch -m rename**
 	- Renomar uma branch. Vale salientar que não pode está na mesma.
 
-## **Sicronizando, atualizando e enviando**
+## **Sincronizando, atualizando e enviando:**
 + **git remote add origin <url>**
 	- Adicionar uma direção para seus arquivos. Até mesmo, fazer uma conexão entre o local e o servidor. Um exemplo bem claro é o [github](http://github.com), onde passamos por exemplo `git remote add origin git@github.com:andersonweb/labs.git` e estabelecerá uma conexão entre um servidor e um servidor local.
 	
@@ -185,14 +185,14 @@
 + **git merge branch**
 	- Trás o que não tem de outra branch para a atual. As vezes, pode gerar alguns conflitos, mas é bem fácil de resolver. Se acontecer conflitos, veja o tópico abaixo.
 
-## **Conflitos**
+## **Conflitos:**
 + **git merge --abort**
 	- Aborta o processo de merge. Ou seja, cancela a atualização.
 
 + **git config --global merge.tool meld**
 	- É um programa para facilitar quando houver conflitos. Com esse comando, você configura qual o **merge tools**, ou seja a ferramenta que queira que lhe ajude quando tiver acontecendo conflitos. Baixe o [meld](http://meldmerge.org/) em sua maquina. E quando houver conflito, basta rodar `meld` no terminal e terá acesso ao programa.
 
-## **Visualizando mudanças**
+## **Visualizando mudanças:**
 
 + **git diff**
 	- Mostra tudo que foi modificado. Vale salientar que, para o comando ser valido, o/os arquivo/arquivos devem está em `Untrack file`.
@@ -203,7 +203,7 @@
 + **git diff HEAD:arquivo1 arquivo2**
 	- Compara um arquivo com o outro e mostra suas diferenças.
 
-## **Removendo mudanças**
+## **Removendo mudanças:**
 
 + **git checkout nome-do-arquivo**
 	- Desfaz mudanças que foram feitas. Vale salientar que, para esse comando ser valido, o arquivo deve está em `Untrack file`.
