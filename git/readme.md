@@ -84,14 +84,6 @@
 	- ** + Insertions (Insersões)**
 	- ** - Deletions (Deleções)**.
 
-+ **git log --reflog**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git log --graph**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
 + **git log --oneline**
 	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
