@@ -6,8 +6,8 @@
 
 + **git config --global user.email email**
  - configura-se seu email para que o mesmo acompanhe seus commits. Uma vez sem essa configuração, não poderá executar commits.
-+ **git config -l** 
- - Listagem de todo conteúdo do arquivo <code>~/.gitconfig</code>.
++ **git config --list** ou **git config -l** 
+ - Lista de de configurações do diretório atual.
 
 + **git config core.editor name-editor**
 	- configuração para escolher seu editor. por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim.
