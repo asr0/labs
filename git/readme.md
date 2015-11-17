@@ -99,8 +99,7 @@
 	- Lista todos os commits, aparecendo apenas os nomes do mesmos e o seu ** hash **, só que ao contrário do `git log --online` o ** hash ** não se exibe minificado. Mostra-se, todos os números e letras que ele contém.
 
 + **git log --abbrev-commit**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Aprevia a **hash** de todos os commits, mostrando apenas os sete números iniciais.
 
 + **git log -p**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
