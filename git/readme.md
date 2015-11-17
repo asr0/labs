@@ -119,8 +119,7 @@
 	- Lista de todos os itens que foram guardado. Cada seção, tem uma numeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + **git stash apply**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Trás novamente os itens para o `Changes to be submitted` e deixa ainda salvo na lista. Se executar `git stash list`, ainda vai vê ele lá.
 
 + **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
