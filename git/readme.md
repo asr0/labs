@@ -125,8 +125,7 @@
 	- Trás novamente para o índice e não o deixa salvo na lista. Caso, queira pegar um stash especifico, basta adicionar seu índice `git stash pop stash@{0}`. Por padrão `git stash pop`, ele trás sempre o stash do índice 0.
 
 + **git stash drop**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Apaga o stash da lista e não volta pra nenhuma área do índice. Igual o `git stash pop` se rodar o comando sem especificar qual queira apagar, ele irá deletar sempre o índice 0.
 
 + **git stash save "correção bug IE"**
 	- Salva com um nome especifico, assim facilita muito quando for trazer de volta para o índice.
