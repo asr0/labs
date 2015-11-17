@@ -129,9 +129,8 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ **git stash save**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ **git stash save "correção bug IE"**
+	- Salva com um nome especifico, assim facilita muito quando for trazer de volta para o índice.
 
 ## **Trabalhando com branch**
 + **git branch**
