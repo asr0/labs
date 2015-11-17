@@ -12,11 +12,11 @@
 + **git config core.editor name-editor**
 	- configuração para escolher seu editor. Por exemplo <code>git config core.editor vim</code>. Irá executar o editor vim quando o git precisar de um editor. Para testa-lo, tente executar esse comando `git commit` e veja qual editor será aberto.
 
-## <b>Iniciando</b>
-  + <b>git init</b>
+## **Iniciando**
+  + **git init**
    - Instalação do git na pasta. Sem esse comando, não é possível que, o git monitore suas versões. Todas informações são armazenada em uma pasta oculta de nome `.git`.
 
-  + <b>git init --bare</b>
+  + **git init --bare**
     - Diferente do `git init` que, cria uma pasta para armazenar essas informações, esse comando cria na raiz. Esse comando é bastante usado em servidores.
 
 ## **Verificando status**:
@@ -59,10 +59,10 @@
 + **git commit -m "mensagem"**
 	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
 
-+ <b>git commit -m "mensagem" --amend</b>
++ **git commit -m "mensagem" --amend**
 	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro, ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opcional ser igual ou não.
 
-+ <b> git commit -a -m "mensagem"</b>
++ ** git commit -a -m "mensagem"**
 	- Mas com o esse comando, é possível adicionar diretamente ao índice e empacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
 
 	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
@@ -75,8 +75,8 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Visualizar commits</b>
-+ <b>git log</b>
+## **Visualizar commits**
++ **git log**
 	- Listagem de todos commits/pacotes em ordem de como foi commitado. Por exemplo, se commitar um commit nesse momento, ele será o primeiro na lista.
 
 + **git log --stat**
@@ -91,7 +91,7 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git log --oneline</b>
++ **git log --oneline**
 	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
 + **git log --pretty-oneline**
@@ -109,11 +109,8 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Guardar arquivos</b>
-
->  Arquivos para entrar no stash tem que está no índice `Changes to be submitted`.
-
-+ <b>git stash</b>
+## **Guardar arquivos**
++ **git stash**
 	- Guardar tudo que estiver em `Changes to be submitted`. Com a possibilidade de recuperar recuperar os mesmo em quaisquer momento.
 
 	Simplificando, o stash é como se fosse uma gaveta, onde coloca objetos e guarda, quando precisemos retiramos.
@@ -121,11 +118,11 @@
 	Nesse caso, esses objetos seria nossos arquivos.
 
 + **git stash list**
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
+
++ **git stash apply**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
-
-+ <b>git stash apply</b>
-	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + **git stash pop**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -139,15 +136,15 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-## <b>Trabalhando com branch</b>
-+ <b>git branch</b>
+## **Trabalhando com branch**
++ **git branch**
 	- Lista todas as branchs existente.
 
 + **git checkout**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git checkout -b</b>
++ **git checkout -b**
 	- Cria uma nova branch e automaticamente muda para a mesma.
 
 + **git merge**
@@ -170,10 +167,10 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-+ <b>git branch -D</b>
++ **git branch -D**
 	- Deleta uma branch. Vale salientar que não deve está dentro dela.
 
-+ <b>git checkout --orphan name-branch</b>
++ **git checkout --orphan name-branch**
 	- Cria uma branch sem se basear em nenhuma, ou seja, cria uma branch sem nenhum commit armazenado no seu log.
 
 + **git branch -m rename**
@@ -199,6 +196,7 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
+<<<<<<< HEAD
 ## **Guardando arquivos, logo mais uso você!**
 
 
@@ -223,6 +221,8 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
+=======
+>>>>>>> revisao
 ## **Conflitos**
 + **git merge --abort**
 	- Aborta o processo de merge. Ou seja, cancela a atualização.
