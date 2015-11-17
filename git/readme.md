@@ -105,8 +105,7 @@
 	- Lista de todos os commits e fazendo um diff, ou seja mostrando o que foi alterado em cada um.
 
 + **git log -p -3**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Atribuindo um `-` mais uma numeração, `-5`, por exemplo, exibe os primeiros cinco commits e o que foi alterado em cada qual .
 
 ## **Guardar arquivos**
 + **git stash**
