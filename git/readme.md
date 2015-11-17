@@ -174,8 +174,7 @@
 	- Cria uma branch sem se basear em nenhuma, ou seja, cria uma branch sem nenhum commit armazenado no seu log.
 
 + **git branch -m rename**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Renomar uma branch. Vale salientar que não pode está na mesma.
 
 ## **Sicronizando, atualizando e enviando**
 + **git remote add origin <url>**
