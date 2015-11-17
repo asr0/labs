@@ -136,7 +136,7 @@
 	- Lista todas as branchs existente.
 
 + **git checkout branch**
-	- Mudança de uma branch para a outra.
+	- Mudança de uma branch para a outraextensão.
 
 + **git checkout -b**
 	- Cria uma nova branch e automaticamente muda para a mesma.
