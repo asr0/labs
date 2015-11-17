@@ -1,4 +1,19 @@
 # Git
+## Tabela de conteúdo
+* [Configurações](#configurações)
+* [Iniciando](#iniciando)
+* [Verificando status](#verificando-status)
+* [Adicionando no índice](#adicionando-no-indice)
+* [Removendo arquivos do índice](#removendo-arquivos-do-indice)
+* [Criando commits](#criando-commits)
+* [Destruindo commits](#destruindo-commits)
+* [Visualizar commits](#visualizar-commits)
+* [Guardar arquivos](#guardar-arquivos)
+* [Trabalhando com branch](#trabalhando-com-branch)
+* [sincronizando, atualizando e enviando](#sincronizando-atualizando-e-enviando)
+* [Conflitos](#conflitos)
+* [Visualizar mudanças](#visualizar-mudanças)
+* [Removendo mudanças](#removendo-mudanças)
 
 ## **Configurações**:
 + **git config --global user.name name**
