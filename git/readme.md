@@ -23,7 +23,7 @@
 + **git status**
   - Apresenta arquivos que estiver no índice. Esse comando é bem **importante**, pois, com ele, consegue vê quais arquivos estão preste a ser commitado `Changes to be submitted` e quais ainda vai entrar. Ùns dos comandos que irá usar a cada 50 segundos. 
 
-  > O comando prover um auxílio muito util para que não haja confusões quando for adicionar itens ou commitar.
+  > O comando prover um auxílio muito útil para que não haja confusões quando for adicionar itens ou commitar.
 
 ## **Adicionando no índice**:	
 + **git add nome-do-arquivo**
@@ -118,7 +118,7 @@
 	Nesse caso, esses objetos seria nossos arquivos.
 
 + **git stash list**
-	- Lista de todos os itens que foram guardado. Cada seção, tem uma númeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma numeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
 
 + **git stash apply**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -196,33 +196,6 @@
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua.
 
-<<<<<<< HEAD
-## **Guardando arquivos, logo mais uso você!**
-
-
-
-+ **git stash**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash list**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash apply**
-	- Sempre ao mais recente...Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash drop stash@{0}**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-+ **git stash pop**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
-
-=======
->>>>>>> revisao
 ## **Conflitos**
 + **git merge --abort**
 	- Aborta o processo de merge. Ou seja, cancela a atualização.
