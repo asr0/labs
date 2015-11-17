@@ -34,10 +34,6 @@
 
 + **git add -all**	- **git add -A**
 	- Adiciona tudo que está no índice, até arquivo deletado.
-  
-+ **-i, -f, *.extensão**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
 
 ## **Removendo arquivos do índice**
 + **git rm -rf nome-do-arquivo --cached**
