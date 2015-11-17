@@ -176,9 +176,8 @@
 + **git push origin branch**
 	- Envia alterações para o caminho que será definido através do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
 
-+ **git pull**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
++ **git pull origin branch**
+	- Puxa e atualiza elementos que você não tem. Esse comando é usado bastante quando está trabalhando em equipe e alguém atualiza no repositório web e você quer atualizar seu repositório local.
 
 + **git merge branch**
 	- Trás o que não tem de outra branch para a atual. As vezes, pode gerar alguns conflitos, mas é bem fácil de resolver. Se acontecer conflitos, veja o tópico abaixo.
