@@ -27,7 +27,7 @@
 
 ## **Adicionando no índice**:	
 + **git add nome-do-arquivo**
-	- Emcaminha o arquivo para ser commitado. Mudando de `untrack` para `Changes to be submitted`
+	- Encaminha o arquivo para ser commitado. Mudando de `untrack` para `Changes to be submitted`
 
 + **git add .**
 	- Adiciona todos os itens que estão no índice/árvore.
@@ -60,12 +60,12 @@
 	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
 
 + <b>git commit -m "mensagem" --amend</b>
-	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro, ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opicional ser igual ou não.
+	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro, ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opcional ser igual ou não.
 
 + <b> git commit -a -m "mensagem"</b>
-	- Mas com o esse comando, é possível adicionar diretamente ao índice e impacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
+	- Mas com o esse comando, é possível adicionar diretamente ao índice e empacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
 
-	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferetente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
+	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
 
 ## **Destrouindo commits**
 +	**git reset HEAD ~1 --soft**
@@ -111,7 +111,7 @@
 
 ## <b>Guardar arquivos</b>
 + <b>git stash</b>
-	- Guardar tudo que estiver em `Changes to be submitted`. Com a posibilidade de recuperar recuperar os mesmo em quaisquer momento.
+	- Guardar tudo que estiver em `Changes to be submitted`. Com a possibilidade de recuperar recuperar os mesmo em quaisquer momento.
 
 	Simplificando, o stash é como se fosse uma gaveta, onde coloca objetos e guarda, quando precisemos retiramos.
 
@@ -186,7 +186,7 @@
 	- Lista de todos os caminhos. Caminho esse que, possibilita o envio e downloads de informações. 
 
 + **git push origin branch**
-	- Envia alterações para o caminho que será definido atráves do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
+	- Envia alterações para o caminho que será definido através do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
 
 + **git pull**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
