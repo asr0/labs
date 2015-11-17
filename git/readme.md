@@ -53,8 +53,8 @@
  >  Arquivos para entrar num commit tem que está no índice `Changes to be submitted`.
 
 + **git commit**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Te prover detalhar mais seu commit. Primeiramente ele vai levar pra um editor configurado por você, depois é só escrever na primeira linha, qual a mensagem do seu commit, nas demais a descrição do commit, vale salientar que pode quebrar linhas, ou seja escrever em paragráfos.
+	-  [Quero configurar meu editor](#).
 
 + **git commit -m "mensagem"**
 	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
