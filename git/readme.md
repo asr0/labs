@@ -58,7 +58,7 @@
 	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
 
 + <b>git commit -m "mensagem" --amend</b>
-	- .
+	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro, ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opicional ser igual ou não.
 
 + <b> git commit -a -m "mensagem"</b>
 	- Um pré requisito para poder commitar é, todo índice esteja em `Changes to be submitted`. Mas com o esse comando, é possível adicionar diretamente ao índice e impacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
