@@ -49,21 +49,21 @@
  >  Arquivos para entrar num commit tem que está no índice `Changes to be submitted`.
 
 + **git commit**
-	- Te prover detalhar mais seu commit. Primeiramente ele vai levar pra um editor configurado por você, depois é só escrever na primeira linha, qual a mensagem do seu commit, nas demais a descrição do commit, vale salientar que pode quebrar linhas, ou seja escrever em paragráfos.
-	-  [Quero configurar meu editor](#).
+	- Te prover detalhar mais seu commit. Primeiramente ele vai levar pra um editor configurado por você, depois é só escrever **na primeira linha**, qual a mensagem do seu commit, nas demais a descrição do commit, vale salientar que pode quebrar linhas, ou seja escrever em parágrafos.
+	-  [configurar meu editor](#).
 
 + **git commit -m "mensagem"**
-	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo deixando tudo mais organizado.
+	- Recolhe todos os arquivos modificados e transforma em um pacote. Diversos desses pacotes, que irá formar seu versionamento e facilitará o controle das versões. A propriedade `-m "sua mensagem"` proverá uma breve descrição do  seu pacote, logo organizado.
 
 + **git commit -m "mensagem" --amend**
-	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro, ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opcional ser igual ou não.
+	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro: Ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opcional ser igual ou não. O commit anterior vai ser substituído por esse, as informações que nele contia, vai ficar gravado no commit atual. Ou seja, adiciona um novo item e se quiser mude o nome do commit.
 
 + ** git commit -a -m "mensagem"**
 	- Mas com o esse comando, é possível adicionar diretamente ao índice e empacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
 
 	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
 
-## **Destrouindo commits**
+## **Destruindo commits**
 +	**git reset HEAD ~1 --soft**
 	- Destroe o commit anterior e exibe todos os arquivos modificado no índice pronto para ser commita-los novamente. A quantidade de commits que é desejada passa depois do **til(~)**. Por exemplo, poderia ser `git reset HEAD~2 --soft`.s
 
@@ -77,11 +77,11 @@
 + **git log --stat**
 	- Lista todos seus commits com um recurso a mais, que é, o que foi feito nele.
 	- **Changed (Mudanças)**
-	- ** + Insertions (Insersões)**
+	- ** + Insertions (Inserções)**
 	- ** - Deletions (Deleções)**.
 
 + **git log --oneline**
-	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua Hash e descrição. A hash, reduzida com apenas os setes números iniciais.
+	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua hash e descrição. A hash, reduzida com apenas os setes números iniciais.
 
 + **git log --pretty-oneline**
 	- Lista todos os commits, aparecendo apenas os nomes do mesmos e o seu ** hash **, só que ao contrário do `git log --online` o ** hash ** não se exibe minificado. Mostra-se, todos os números e letras que ele contém.
@@ -104,7 +104,7 @@
 	Nesse caso, esses objetos seria nossos arquivos.
 
 + **git stash list**
-	- Lista de todos os itens que foram guardado. Cada seção, tem uma numeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recupera-lôs.
+	- Lista de todos os itens que foram guardado. Cada seção, tem uma numeração, ou seja cada vez que você guarda, o git o coloca em locais separados, assim evitando conflitos quando for recuperá-los.
 
 + **git stash save "correção bug IE"**
 	- Salva com um nome especifico, assim facilita muito quando for trazer de volta para o índice.
@@ -124,7 +124,7 @@
 	- Lista todas as branchs existente.
 
 + **git checkout branch**
-	- Mudança de uma branch para a outraextensão.
+	- Mudança de uma branch para a outra.
 
 + **git checkout -b**
 	- Cria uma nova branch e automaticamente muda para a mesma.
@@ -154,15 +154,15 @@
 
 ## **Sicronizando, atualizando e enviando**
 + **git remote add origin <url>**
-	- Adicionar uma direção para seus arquivos. Até mesmo, fazer uma conexão entre o local e o servidor. Um exemplo bem claro é o github, onde passamos por exemplo `git remote add origin git@github.com:andersonweb/labs.git` e estabelecerá uma conexão entre um servidor e um servidor local.
+	- Adicionar uma direção para seus arquivos. Até mesmo, fazer uma conexão entre o local e o servidor. Um exemplo bem claro é o [github](http://github.com), onde passamos por exemplo `git remote add origin git@github.com:andersonweb/labs.git` e estabelecerá uma conexão entre um servidor e um servidor local.
 	
-	> o caminho a ser passado (`<url>`) não são iguais para todos, no caso do github, você pode encontra-lo no lado esquerdo - **SSH clone URL**.
+	> o caminho a ser passado (`<url>`) não são iguais para todos, no caso do [github](http://github.com), você pode encontra-lo no lado esquerdo - **SSH clone URL**.
 
 + **git remote -v**
 	- Lista de todos os caminhos. Caminho esse que, possibilita o envio e downloads de informações. 
 
 + **git push origin branch**
-	- Envia alterações para o caminho que será definido através do comando `git remote add <url>`. Um exemplo é o Github e seus arquivos locais. Executano o comando, enviará todos commits para o servidor, no caso o repositório no github.
+	- Envia alterações para o caminho que será definido através do comando `git remote add <url>`. Um exemplo é o [github](http://github.com) e seus arquivos locais. Executando o comando, enviará todos commits para o servidor, no caso o repositório no [github](http://github.com).
 
 + **git pull origin branch**
 	- Puxa e atualiza elementos que você não tem. Esse comando é usado bastante quando está trabalhando em equipe e alguém atualiza no repositório web e você quer atualizar seu repositório local.
@@ -175,12 +175,12 @@
 	- Aborta o processo de merge. Ou seja, cancela a atualização.
 
 + **git config --global merge.tool meld**
-	- É um programa para facilitar quando houver conflitos. Com esse comando, você configura qual o **merge tools**, ou seja a ferramenta que queira que lhe ajude quando tiver acontecendo conflitos. Baixe o [meld](http://meldmerge.org/) em sua maquina. E quando houver conflito, basta rodar `meld` no terminal.
+	- É um programa para facilitar quando houver conflitos. Com esse comando, você configura qual o **merge tools**, ou seja a ferramenta que queira que lhe ajude quando tiver acontecendo conflitos. Baixe o [meld](http://meldmerge.org/) em sua maquina. E quando houver conflito, basta rodar `meld` no terminal e terá acesso ao programa.
 
 ## **Visualizando mudanças**
 
 + **git diff**
-	- Mostra tudo que foi modificado. Vale salientar que, para o comando ser valido, o/os arquivo/arquivos devem está em `Changes not staged for commit`.
+	- Mostra tudo que foi modificado. Vale salientar que, para o comando ser valido, o/os arquivo/arquivos devem está em `Untrack file`.
 
 + **git diff --staged**
 	- Mostra as modificações dos arquivos que estão em `Changes not staged for commit`.
@@ -191,7 +191,7 @@
 ## **Removendo mudanças**
 
 + **git checkout nome-do-arquivo**
-	- Desfaz mudanças que foram feitas. Vale salientar que, para esse comando ser valido, o arquivo deve está em `Changes not staged for commit`.
+	- Desfaz mudanças que foram feitas. Vale salientar que, para esse comando ser valido, o arquivo deve está em `Untrack file`.
 
 + **git reset HEAD nome-do-arquivo**
 	- Retira o arquivo de  `Changes not staged for commit` e trás para `Untrack file`.
