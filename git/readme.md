@@ -80,8 +80,10 @@
 	- Listagem de todos commits/pacotes em ordem de como foi commitado. Por exemplo, se commitar um commit nesse momento, ele será o primeiro na lista.
 
 + **git log --stat**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- Lista todos seus commits com um recurso a mais, que é, o que foi feito nele.
+	- **Changed (Mudanças)**
+	- ** + Insertions (Insersões)**
+	- ** - Deletions (Deleções)**.
 
 + **git log --reflog**
 	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
