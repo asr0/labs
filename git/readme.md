@@ -201,8 +201,7 @@
 	- Aborta o processo de merge. Ou seja, cancela a atualização.
 
 + **git config --global merge.tool meld**
-	- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua.
+	- É um programa para facilitar quando houver conflitos. Com esse comando, você configura qual o **merge tools**, ou seja a ferramenta que queira que lhe ajude quando tiver acontecendo conflitos. Baixe o [meld](http://meldmerge.org/) em sua maquina. E quando houver conflito, basta rodar `meld` no terminal.
 
 ## **Visualizando mudanças**
 
