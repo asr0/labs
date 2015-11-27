@@ -1,5 +1,5 @@
 $(document).ready(start);
 
 function start(){
-	console.log('Start with jQuery');
+	console.log('O documento foi carregado com sucesso!!!');
 }
