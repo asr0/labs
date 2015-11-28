@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selector ID, class and tags</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<p>My text in div</p>
+	</div>
+
+	<ul>
+		<li class="link">Elemento que vai ser marcado</li>
+		<li>Elemento não marcado</li>
+		<li>Elemento não marcado</li>
+		<li>Elemento não marcado</li>
+		<li class="link">Elemento que vai ser marcado</li>
+	</ul>
+
+	<article>
+		<p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat culpa enim quod dolorum et voluptas numquam, temporibus repudiandae maxime. Esse sequi autem placeat omnis accusantium ipsum laudantium sit accusamus voluptatibus.</p>
+	</article>
+
+	<script src="jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Selector tags
+			$('div p').css('color','green');
+
+			// Selector class
+			$('.link').css('background','yellow');
+
+			// Selector ID 
+			$('#text').css('color', 'brown');
+		});
+	</script>
+</body>
+</html>
