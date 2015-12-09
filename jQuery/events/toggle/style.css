@@ -1,0 +1,33 @@
+main{ 
+	width: 960px;
+	margin: 30px auto;
+} 
+
+nav{
+	position: relative; 
+	right: 0;
+}
+
+ul li ul{
+	display: none ;
+	position: absolute;
+	left: 0;
+	top: 80px;
+}
+ul li ul li a{
+	margin: 5px;
+	background: blue;
+}
+
+ul{
+	width: 540px;
+	list-style: none
+}
+
+li a{ 
+	background: purple;
+	color: #FFF;
+	padding: 10px;
+	float: left;
+	margin: 10px 12px;
+}
