@@ -73,7 +73,7 @@
 + **git commit -m "mensagem" --amend**
 	- A propriedade `--amend` prover adicionar algum arquivo esquecido num commit anterior. Um exemplo corriqueiro: Ao executar um commit, percebe-se que, ainda há um arquivo que precisa ser adicionando no mesmo commit. A solução é fácil, só adicionar ele como `Changes to be submitted` e commitar novamente com o a propriedade `--amend`. O comentário é um opcional ser igual ou não. O commit anterior vai ser substituído por esse, as informações que nele contia, vai ficar gravado no commit atual. Ou seja, adiciona um novo item e se quiser mude o nome do commit.
 
-+ ** git commit -a -m "mensagem"**
++ **git commit -a -m "mensagem"**
 	- Mas com o esse comando, é possível adicionar diretamente ao índice e empacotar. Os arquivos não precisa está em `Changes to be submitted`. A propriedade `-a` e `-m "sua mensagem"` pode se juntar, ` git commit -am "sua mensagem"`, causando o mesmo efeito.
 
 	> Importante lembrar que, esse comando tem que ser usado com  muito cuidado, pois não irá visualizar os arquivos que está sendo empacotado, diferente quando adiciona manualmente com o ` git add ` e pode visualizar com o `git status`.
@@ -92,8 +92,8 @@
 + **git log --stat**
 	- Lista todos seus commits com um recurso a mais, que é, o que foi feito nele.
 	- **Changed (Mudanças)**
-	- ** + Insertions (Inserções)**
-	- ** - Deletions (Deleções)**.
+	- **(+) Insertions (Inserções)**
+	- **(-) Deletions (Deleções)**.
 
 + **git log --oneline**
 	- Listagem de todos os commits reduzido e em uma linha apenas. Nesse listagem, os commits só exibe sua hash e descrição. A hash, reduzida com apenas os setes números iniciais.
