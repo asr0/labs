@@ -1,5 +1,5 @@
 //Demostração de mixin com sass
-@mixin triagolo($width,$color,$text-color){
+@mixin triagulo($width,$color,$text-color){
 	width: 0; 
 	height: 0; 
 	border-left: $width solid transparent;
@@ -8,7 +8,7 @@
 }
 // Como usar:
 .exemplo{
-	@include triagolo(50px,#333,green);
+	@include triagulo(50px,#333,green);
 }
 
 
