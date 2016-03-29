@@ -1,0 +1,22 @@
+{
+  "name": "grunt-learn",
+  "version": "1.0.0",
+  "description": "Learning grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "learn",
+    "grunt",
+    "taskRuuner"
+  ],
+  "author": "Anderson Menezes",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-htmlmin": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0"
+  }
+}
